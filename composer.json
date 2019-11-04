@@ -1,5 +1,5 @@
 {
-  "name": "bariton3/mqseries-php",
+  "name": "opm87/mqseries-php",
   "type": "library",
   "description": "client to WebSphere MQ Queue Manager using the PHP mqseries pecl extension for Laravel framework",
   "minimum-stability": "stable",
