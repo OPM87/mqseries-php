@@ -23,6 +23,7 @@
 namespace Test\MqSeries;
 
 use MqSeries\Service;
+use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 
 /**
@@ -30,10 +31,10 @@ use Psr\Log\NullLogger;
  *
  * @package Test\MqSeries
  */
-class ServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends TestCase
 {
 	/* http://rubywmq.rubyforge.org/doc/classes/WMQ.html */
-	public function setUp()
+	public function setUp(): void
 	{
 		parent::setUp();
 	

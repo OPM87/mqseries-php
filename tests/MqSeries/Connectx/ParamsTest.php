@@ -22,15 +22,17 @@
 
 namespace Test\MqSeries\Connectx;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * ParamsTest
  *
  * @package Test\MqSeries\Connectx
  */
-class ParamsTest extends \PHPUnit_Framework_TestCase
+class ParamsTest extends TestCase
 {	
 	/* http://rubywmq.rubyforge.org/doc/classes/WMQ.html */
-	public function setUp()
+	public function setUp(): void
 	{
 		parent::setUp();
 		
